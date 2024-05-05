@@ -1,3 +1,6 @@
+"""This is function that prints Hello world"""
+
+
 def main():
     print("Hello world!")
 
