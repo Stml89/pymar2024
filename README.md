@@ -1,2 +1,3 @@
-# pymar2024
-Python test automation course
+Yanislav Terentev 
+This is my python testing course
+
