@@ -15,6 +15,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install mypy
+      - name: Lint with Mypy      
       - name: Analysing the code with mypy
         run: |
           mypy --ignore-missing-imports --install-types --non-interactive --exclude venv .
