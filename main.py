@@ -1,4 +1,8 @@
+"""This is function that prints Hello world"""
+
+
 def main():
+    """This is the main function"""
     print("Hello world!")
 
 
