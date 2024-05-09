@@ -1,6 +1,6 @@
 name: Pylint
 
-def function(a,b,c)
+"""Это докстринг модуля, он однострочный."""
 
 on:
   workflow_dispatch:
