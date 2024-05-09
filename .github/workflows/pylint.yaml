@@ -1,12 +1,6 @@
 name: Pylint
 
-class SimpleClass:
-    """Здесь докстринг класса"""
-
-    def say_hello(self, name: str):
-        """Здесь докстринг метода класса"""
-
-        print(f"Привет, {name}")
+#"""Здесь докстринг класса"""
         
 on:
   workflow_dispatch:
