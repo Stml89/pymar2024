@@ -1,8 +1,7 @@
 name: Pylint
 
-def function(a,b,c):
-    """Эта функция содержит многострочный докстринг."""
-  
+def function(a,b,c)
+
 on:
   workflow_dispatch:
   pull_request:
