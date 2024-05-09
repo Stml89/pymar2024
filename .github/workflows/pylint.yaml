@@ -1,7 +1,13 @@
 name: Pylint
 
-#"""Это докстринг модуля, он однострочный."""
+class SimpleClass:
+    """Здесь докстринг класса"""
 
+    def say_hello(self, name: str):
+        """Здесь докстринг метода класса"""
+
+        print(f"Привет, {name}")
+        
 on:
   workflow_dispatch:
   pull_request:
